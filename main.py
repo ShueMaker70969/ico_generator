@@ -112,9 +112,7 @@ class IcoGeneratorApp(tk.Tk):
 
         input_path = Path(selected)
         self.input_path.set(str(input_path))
-
-        if not self.output_path.get():
-            self.output_path.set(str(input_path.with_suffix(".ico")))
+        self.output_path.set(str(input_path.with_suffix(".ico")))
 
         self._update_image_info(input_path)
 
