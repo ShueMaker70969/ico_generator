@@ -1,6 +1,7 @@
 # PNG to ICO Generator
 
 A small Python desktop app that converts a single PNG image into a multi-size ICO file.
+I made this since I was lazy to open gimp each time, or use CLI for image magic. I usually keep it in one of the directories that can run python, run and convert some pngs to .ico format. 
 
 ## Setup
 
